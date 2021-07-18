@@ -1,5 +1,5 @@
 [ENV]
-POOL_DIR=./maildata
+POOL_DIR=/maildata
 TMP_DIR=./temp
 SMTP_SERVER=192.168.150.141
 SMTP_PORT=10025
