@@ -24,9 +24,9 @@
 ## Environments
 ```console
 $ nmcil con add ifname ens33 type ethernet con-name nat ip4 192.168.150.xxx/24 gw4 192.168.150.2 ipv4.method manual ipv4.dns 8.8.8.8
-# nmcli con up nat
+$ nmcli con up nat
 # ping 8.8.8.8
->> PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 64 bytes from 8.8.8.8: icmp_seq=1 ttl=128 time=41.0 ms
 # hostnamectl set-hostname inyestar.com
 # hostname inyestar.com
