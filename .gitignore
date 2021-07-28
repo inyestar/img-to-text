@@ -130,7 +130,16 @@ dmypy.json
 
 # custom
 inspection/
-_windows/
+_windows/laf.xml
 .idea/
 maildata/
 conf/*.json
+colors.scheme.xml
+debugger.xml
+editor.xml
+filetypes.xml
+ide.general.xml
+ide-features-trainer.xml
+pluginAdvertiser.xml
+vcs.xml
+wsl.distributions.xml
