@@ -132,3 +132,5 @@ dmypy.json
 inspection/
 _windows/
 .idea/
+maildata/
+conf/*.json
